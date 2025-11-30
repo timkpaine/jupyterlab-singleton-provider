@@ -127,8 +127,8 @@ exclude = [
 ]
 
 [tool.hatch.build.targets.wheel.shared-data]
-"jupyterlab_singleton_provider/labextension" = "share/jupyter/labextensions/jupyterlab_singleton_provider"
-"jupyterlab_singleton_provider/extension/install.json" = "share/jupyter/labextensions/jupyterlab_singleton_provider/install.json"
+"jupyterlab_singleton_provider/labextension" = "share/jupyter/labextensions/jupyterlab-singleton-provider"
+"jupyterlab_singleton_provider/extension/install.json" = "share/jupyter/labextensions/jupyterlab-singleton-provider/install.json"
 "jupyterlab_singleton_provider/extension/jupyterlab_singleton_provider.json" = "etc/jupyter/jupyter_server_config.d/jupyterlab_singleton_provider.json"
 
 [tool.hatch.build.hooks.hatch-js]

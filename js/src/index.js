@@ -5,8 +5,7 @@ export const PLUGIN_ID = "jupyterlab-singleton-provider";
 export const ISingletonProvider = new Token(PLUGIN_ID);
 
 export class SingletonElement extends HTMLElement {
-  constructor() {
-    super();
+  connectedCallback() {
     this.innerHTML = `<div style="border: 2px solid blue; padding: 10px;">
       <h3>Singleton Web Component</h3>
       <p>This is a singleton web component provided by the jupyterlab-singleton-provider extension.</p>
@@ -18,7 +17,7 @@ export class SingletonElement extends HTMLElement {
 customElements.define("singleton-element", SingletonElement);
 
 const extension = {
-  activate: (app) => {
+  activate: () => {
     // eslint-disable-next-line no-console
     console.log("JupyterLab extension jupyterlab-singleton-provider is activated!");
   },
@@ -26,7 +25,7 @@ const extension = {
   id: PLUGIN_ID,
   optional: [],
   requires: [],
-  provides: [ISingletonProvider],
+  provides: ISingletonProvider,
 };
 
 export default extension;

@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-singleton-provider",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Example of a JupyterLab extension that provides e.g. a webcomponent singleton to other extensions",
   "repository": "git@github.com:timkpaine/jupyterlab-singleton-provider.git",
   "author": "the jupyterlab-singleton-provider authors <t.paine154@gmail.com>",

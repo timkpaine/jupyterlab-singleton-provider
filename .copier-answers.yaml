@@ -1,0 +1,13 @@
+# Changes here will be overwritten by Copier
+_commit: 55f9353
+_src_path: https://github.com/python-project-templates/base.git
+add_docs: false
+add_extension: jupyter
+add_wiki: false
+email: t.paine154@gmail.com
+github: timkpaine
+project_description: Example of a JupyterLab extension that provides e.g. a webcomponent
+    singleton to other extensions
+project_name: jupyterlab-singleton-provider
+python_version_primary: '3.11'
+team: the jupyterlab-singleton-provider authors

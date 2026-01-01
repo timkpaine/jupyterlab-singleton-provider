@@ -9,16 +9,16 @@ importers:
   .:
     dependencies:
       '@jupyterlab/application':
-        specifier: ^4.5.0
+        specifier: ^4.5.1
         version: 4.5.1(react@18.3.1)
       '@jupyterlab/apputils':
-        specifier: ^4.6.0
+        specifier: ^4.6.1
         version: 4.6.1
       '@jupyterlab/notebook':
-        specifier: ^4.5.0
+        specifier: ^4.5.1
         version: 4.5.1
       '@jupyterlab/services':
-        specifier: ^7.5.0
+        specifier: ^7.5.1
         version: 7.5.1(react@18.3.1)
       '@lumino/coreutils':
         specifier: ^2.2.2
@@ -40,8 +40,8 @@ importers:
         specifier: ^7.28.5
         version: 7.28.5(@babel/core@7.28.5)
       '@jupyterlab/builder':
-        specifier: ^4.5.0
-        version: 4.5.0
+        specifier: ^4.5.1
+        version: 4.5.1
       babel-jest:
         specifier: ^30.2.0
         version: 30.2.0(@babel/core@7.28.5)
@@ -91,7 +91,7 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1
       prettier:
-        specifier: ^3.7.3
+        specifier: ^3.7.4
         version: 3.7.4
       rimraf:
         specifier: ^6.1.2
@@ -1026,8 +1026,8 @@ packages:
   '@jupyterlab/attachments@4.5.1':
     resolution: {integrity: sha512-5vIItGm9ZqqeYY1/WKASWZZARgb3wyd+/T8pG8ssKbGLsqlmxn2UH5HCcPEOoF3tffhLJyG8wR+JfFpB+Vy7tA==}
 
-  '@jupyterlab/builder@4.5.0':
-    resolution: {integrity: sha512-kYxt/WCfbtC8g4OaQxss+55+JiIcaEKNzb/rnoNYaTYBfMofAvFijh8oWaeu6f1XO1ohE6GflBzVhUkdYXP+nw==}
+  '@jupyterlab/builder@4.5.1':
+    resolution: {integrity: sha512-yCqvOLBPpWVxfpwCFw+aisE1LMHKGFxjYCIwAZaZhMFayOW8egtzvSQ8AGuMWQMBw/AeJuc+CRzOhZDL2ui7VA==}
     hasBin: true
 
   '@jupyterlab/cells@4.5.1':
@@ -6189,7 +6189,7 @@ snapshots:
       - react
       - utf-8-validate
 
-  '@jupyterlab/builder@4.5.0':
+  '@jupyterlab/builder@4.5.1':
     dependencies:
       '@lumino/algorithm': 2.0.4
       '@lumino/application': 2.4.5
@@ -7155,7 +7155,7 @@ snapshots:
 
   '@types/webpack-sources@0.1.12':
     dependencies:
-      '@types/node': 24.10.1
+      '@types/node': 25.0.3
       '@types/source-list-map': 0.1.6
       source-map: 0.6.1
 
@@ -9513,7 +9513,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 24.10.1
+      '@types/node': 25.0.3
       merge-stream: 2.0.0
       supports-color: 8.1.1
 

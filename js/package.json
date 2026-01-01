@@ -48,11 +48,18 @@
     "test": "jest --coverage --collectCoverageFrom=src/*.{js}"
   },
   "dependencies": {
+<<<<<<< before updating
     "@jupyterlab/application": "^4.5.0",
     "@jupyterlab/apputils": "^4.6.0",
     "@jupyterlab/notebook": "^4.5.0",
     "@jupyterlab/services": "^7.5.0",
     "@lumino/coreutils": "^2.2.2",
+=======
+    "@jupyterlab/application": "^4.5.1",
+    "@jupyterlab/apputils": "^4.6.1",
+    "@jupyterlab/notebook": "^4.5.1",
+    "@jupyterlab/services": "^7.5.1",
+>>>>>>> after updating
     "@lumino/disposable": "^2.1.5"
   },
   "devDependencies": {
@@ -60,7 +67,11 @@
     "@babel/core": "^7.28.5",
     "@babel/eslint-parser": "^7.28.5",
     "@babel/preset-env": "^7.28.5",
+<<<<<<< before updating
     "@jupyterlab/builder": "^4.5.0",
+=======
+    "@jupyterlab/builder": "^4.5.1",
+>>>>>>> after updating
     "babel-jest": "^30.2.0",
     "cpy-cli": "^6.0.0",
     "eslint": "^8.57.1",
@@ -77,7 +88,12 @@
     "jest-junit": "^16.0.0",
     "jest-transform-css": "^6.0.3",
     "mkdirp": "^3.0.1",
+<<<<<<< before updating
     "prettier": "^3.7.3",
     "rimraf": "^6.1.2"
+=======
+    "prettier": "^3.7.4",
+    "rimraf": "^6.1.0"
+>>>>>>> after updating
   }
 }

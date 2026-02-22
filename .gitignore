@@ -141,14 +141,12 @@ js/node_modules
 js/test-results
 js/playwright-report
 js/*.tgz
-jupyterlab_singleton_provider/extension
 
 # Jupyter
 .ipynb_checkpoints
 .autoversion
 Untitled*.ipynb
-!jupyterlab_singleton_provider/extension/jupyterlab_singleton_provider.json
-!jupyterlab_singleton_provider/extension/install.json
+jupyterlab_singleton_provider/extension
 jupyterlab_singleton_provider/nbextension
 jupyterlab_singleton_provider/labextension
 
@@ -157,3 +155,7 @@ jupyterlab_singleton_provider/labextension
 
 # Rust
 target
+
+# Hydra
+outputs/
+multirun/

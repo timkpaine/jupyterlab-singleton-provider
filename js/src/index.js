@@ -1,6 +1,7 @@
 import {Token} from "@lumino/coreutils";
 import "../style/index.css";
 
+<<<<<<< before updating
 export const PLUGIN_ID = "jupyterlab-singleton-provider";
 export const ISingletonProvider = new Token(PLUGIN_ID);
 
@@ -11,6 +12,11 @@ export class SingletonElement extends HTMLElement {
       <p>This is a singleton web component provided by the jupyterlab-singleton-provider extension.</p>
     </div>`;
   }
+=======
+async function activate(_app) {
+  // oxlint-disable-next-line no-console
+  console.log("JupyterLab extension jupyterlab-singleton-provider is activated!");
+>>>>>>> after updating
 }
 
 // Define the custom element

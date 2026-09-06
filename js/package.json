@@ -53,7 +53,7 @@
     "@jupyterlab/apputils": "^4.7.3",
     "@jupyterlab/notebook": "^4.6.3",
     "@jupyterlab/services": "^7.6.3",
-    "@lumino/coreutils": "^2.2.2",
+    "@lumino/coreutils": "^2.2.3",
     "@lumino/disposable": "^2.1.6"
   },
   "devDependencies": {
